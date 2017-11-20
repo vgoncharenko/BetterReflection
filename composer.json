@@ -6,6 +6,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/tomzx/php-parser"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/vgoncharenko/super_closure"
         }
     ],
     "require": {
@@ -14,7 +18,7 @@
         "phpdocumentor/reflection-docblock": "^2.0",
         "phpdocumentor/type-resolver": "^0.2",
         "zendframework/zend-code": "^3.0",
-        "jeremeamia/superclosure": "^2.2"
+        "jeremeamia/superclosure": "dev-features/php-semver-checker"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^1.12",
